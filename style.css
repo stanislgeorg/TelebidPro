@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+}
+
+body {
+    background-image: url('background.jpg');
+}
+
+.line {
+   margin-bottom: -220%;
+   margin-top: 2.5%;
+   margin-left: 90.7%;
+   max-height: 2400px;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-top: 3%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.menu-icon {
+    width: 25px;
+    cursor: pointer;
+    display: none; 
+}
+
+nav {
+    flex: 1;
+    text-align: left;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #191919;
+    font-size: 20px;
+}
+
+
+h1 {
+    font-size: 60px;
+    font-weight: 100;
+}
+
+.hello {
+    margin-top: 180px;
+}
+
+.for-you {
+    margin-top: -7%;
+}
+.telebidpro {
+    width: 50%;
+    height: 50%;
+    margin-left: -12.6%;
+    margin-top: -12.3%;
+    display: flex;
+}
+
+.title-box {
+    width: 80%;
+    height: 80%;
+    align-items: left;
+    display: flex;
+    margin-top: -40%;
+    margin-left: -15%;
+    z-index: 9999;
+  }
+
+  .row-1 {
+      margin-top: 100px;
+  }
+
+  h2 {
+    font-weight: 300;
+    font-size: 24px;
+  }
+
+  .about-line {
+    margin-bottom: -4.3%;
+    margin-left: -25%;
+  }
+
+  p {
+      margin-top: 70px;
+      margin-left: 20px;
+      font-weight: 300;
+      font-size: 16px;
+  }
+
+  .about-box {
+      margin-top: -11%;
+      margin-left: -1.2%;
+      width: 105%;
+  }
+
+    .row-2 {
+        margin-top: 100px;
+  }
+
+  .about-line-projects {
+    margin-bottom: -4.3%;
+    margin-left: -25%;
+  }
+
+  .kitch {
+      margin-top: 50px;
+      max-width: 200px;
+      border: solid 1px #191919;
+  }
+
+  .view-more {
+      margin-top: 20px;
+      margin-left: 50px;
+      margin-right: 65px;
+      font-size: 20px;
+      text-decoration: none;
+      position: relative;
+      align-items: center;
+      cursor: pointer;
+  }
+
+  .kitch:hover {
+    max-width: 210px;
+  }
+
+  .agency {
+      margin-left: 20px;
+      max-width: 200px;
+      border: solid 1px #191919;
+  }
+
+  .agency:hover {
+      max-width: 210px;
+  }
+
+  .properties {
+      margin-left: 20px;
+      max-width: 190px;
+      border: solid 1px #191919;
+  }
+
+  .properties:hover {
+      max-width: 200px;
+  }
+
+  .sense {
+      margin-left: 20px;
+      max-width: 180px;
+      border: solid 1px #191919;
+  }
+
+  .sense:hover {
+      max-width: 185px;
+  }
+
+  .row-3 {
+      margin-top: 100px;
+  }
+  
+  .contact-box {
+      max-width: 700px;
+      height: 100px;
+      margin-bottom: -15%;
+      margin-left: -15%;
+  }
+
+  a {
+    display: inline-block;
+    position: relative;
+    color: #191919;
+  }
+
+a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1.2px;
+    bottom: 0;
+    left: 0;
+    background-color: #fe6602;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+.footer-txt {
+    position: relative;
+    margin-left: 60%;
+    margin-top: 200px;
+    font-size: 40px;
+}
+
+footer {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 14px;
+}
